@@ -1,5 +1,5 @@
-# rsschool-cv
-## Uladzislau Isachkou
+## rsschool-cv
+# Uladzislau Isachkou
 ### My Contact
 1. +48606166835
 2. valdispatriarh@gmail.com
@@ -17,17 +17,16 @@ function App() {
     return (
         <BrowserRouter>
             <div className='app'>
-                <Header/>
-                <Navbar/>
+                    <Header/>
+                    <Navbar/>
                 <div className='appContent'>
                     <Routes>
                         <Route path='/content' element={<Content like={'1 000 000'}/>} />
                         <Route path='/eng'element={<Eng/>}/>
                     </Routes>
                 </div>
-            </div>
-        </BrowserRouter> 
-        );}
+             </div> 
+        </BrowserRouter> );}
  ```
 
 ### Education
