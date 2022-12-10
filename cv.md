@@ -1,5 +1,6 @@
-## rsschool-cv
-# Uladzislau Isachkou
+ rsschool-cv
+# Junior Frontend Developer
+## Uladzislau Isachkou
 ### My Contact
 1. +48606166835
 2. valdispatriarh@gmail.com
