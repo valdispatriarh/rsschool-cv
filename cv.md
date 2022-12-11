@@ -1,5 +1,5 @@
 # Junior Frontend Developer
-#### Uladzislau Isachkou
+ *Uladzislau Isachkou*
 
 ### My Contact
 * +48606166835
