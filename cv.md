@@ -1,16 +1,16 @@
-## Junior Frontend Developer
-### Uladzislau Isachkou
-**My Contact**
-1. +48606166835
-2. valdispatriarh@gmail.com
-3. Valdis#9609 (discord)
-**Skills**
-1. React (Путь самурая 1.0 level 25/100)
-2. JS (RS stage 0)
-3. Grid/CSS (beginer)
-4. HTML (beginer)
-5. Git/GitHub (beginer)
-**Cod Examples**
+# Junior Frontend Developer
+## Uladzislau Isachkou
+### My Contact
+* +48606166835
+* valdispatriarh@gmail.com
+* Valdis#9609 (discord)
+### Skills
+* React (Путь самурая 1.0 level 25/100)
+* JS (RS stage 0)
+* Grid/CSS (beginer)
+* HTML (beginer)
+* Git/GitHub (beginer)
+### Cod Examples
 
 ```
 function App() {
@@ -29,10 +29,10 @@ function App() {
         </BrowserRouter> );}
  ```
 
-**Education**
-1. Belarusian National Technical University (master of technical sciences)
-2. RS School JS/FE Pre-School 2022Q4 (in process…)
-**Languages**
-1. Belarusian native language
-2. English (A1)
-3. Polish (A1)
+### Education
+* Belarusian National Technical University (master of technical sciences)
+* RS School JS/FE Pre-School 2022Q4 (in process…)
+### Languages
+* Belarusian native language
+* English (A1)
+* Polish (A1)
