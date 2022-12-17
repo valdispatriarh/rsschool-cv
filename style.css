@@ -6,18 +6,23 @@
     justify-content: space-between;
     /* font-family: Georgia, "Times New Roman",
           Times, serif; */
-    background-color:white;}
+}
 
 .header {  
  
-  color: brown; }
+  color: brown; 
+  background-color:gray}
 .main{ 
  
-  color: blue;}    
+  color: blue;
+  background-color:white}    
 .footer  {  
   
   color: black;
-  border-top: thin dotted; } 
+  background-color:gray} 
+
+
+
 
 .containerH {
   max-width: 1440px;
@@ -33,5 +38,56 @@
       margin: 0 auto;
       background-color:gray;}
 
+
+
+
 .img {
         width: 100px;}
+.nav-list {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+            list-style: none;
+            padding: 0 20px;
+            line-height: 0px;/*отвечает за верхнюю полосу*/
+            color: black;} 
+
+
+
+            .app{
+              display: grid;
+                  grid-template-columns:1fr 1fr;
+          }
+.section-profile {
+                background-color: white;
+                grid-area: p}
+
+
+
+.con { background-color: white
+
+}
+                /* .section-contacts {
+                  background-color: orange;
+                  grid-area: c;}
+                  .section.Summary {
+                    background-color: mediumseagreen;
+                    grid-area: s;}
+                    .section.Skills {
+                      background-color: mediumseagreen;
+                      grid-area: sk;}
+                      .section.Code {
+                        background-color: mediumseagreen;
+                        grid-area: co;}
+                        .section.Courses {
+                          background-color: mediumseagreen;
+                          grid-area: cou;}
+                          .section.Projects {
+                            background-color: mediumseagreen;
+                            grid-area: t;}
+                            .section.Education {
+                              background-color: mediumseagreen;
+                              grid-area: e;}
+                              .section.Eglish {
+                                background-color: mediumseagreen;
+                                grid-area: en;} */
