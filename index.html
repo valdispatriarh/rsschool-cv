@@ -6,78 +6,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/favicon.ico">
 </head>
 <body class="body">
-   
     <header class = "header">
-        <div class = "containerH">
-            <nav class="nav">
+            <nav>
                 <ul class="nav-list">
-                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                  <li class="nav-item"><a href="#skills" class="nav-link">Code</a></li>
-                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                  <li class="nav-item"><a href="#skills" class="nav-link">Courses</a></li>
-                  <li class="nav-item"><a href="#skills" class="nav-link">Projects</a></li>
-                  <li class="nav-item"><a href="#skills" class="nav-link">Education</a></li>
-                  <li class="nav-item"><a href="#skills" class="nav-link">Eglish</a></li>
+                  <li><a  class="nav-link"> Contacts</a></li>
+                  <li><a  class="nav-link">Summary</a></li>
+                  <li><a  class="nav-link">Code</a></li>
+                  <li><a  class="nav-link">Skills</a></li>
+                  <li><a  class="nav-link">Courses</a></li>
+                  <li><a  class="nav-link">Projects</a></li>
+                  <li><a  class="nav-link">Education</a></li>
+                  <li><a  class="nav-link">English</a></li>
                 </ul>
               </nav>
-        </div>
     </header>
-        
+
     <main class = main>
-        <div><section class="section-profile" id="profile">
-                <h1>Uladzislau Isachkou</h1>
-                <div>Junior Frontend Developer</div>
-         
-                <!-- section.Profile
-                section.Contacts
-                section.Summary
-                section.Skills
-                section.Code
-                section.Courses
-                section.Projects
-                section.Education
-                section.Eglish -->
-         </section>
-         <div class = "app">
-            <section class="con" id="contacts">
-            <h2>Contacts</h2>
+        <section class = "colums-profile">
+        <img class = "img-my-photo" src="assets/img/image.jpg" alt="my photo" >
+        <h1> <li>Uladzislau Isachkou</li> <li>Junior Frontend Developer</li> </h1> 
+        <div></div>
+       
         </section>
-         <section class="section.Summary" id="summary ">
-            <h2>Summary </h2>
+
+    <div class = "colums">
+        <section class="con">
+        <h2>Contacts</h2>
+<ul>
+    <li>+48606166835</li>
+    <li>valdispatriarh@gmail.com</li>
+    <li>Valdis#9609 (discord)</li>
+</ul>
+        </section>
+
+        <section class="sum" >
+        <h2>Summary </h2>
+I am humanity, curiosity and honesty.
+        </section>
+
+        <section class="ski"  >
+        <h2>Skills</h2>
+        <ul>
+            <li>React</li>
+            <li>JS</li>
+            <li>Grid/CSS</li>
+            <li>HTML</li>
+            <li>Git/GitHub</li>
+        </ul>
+        </section>
+
+        <section class="cod" >
+        <h2>Code</h2>
+function App() {
+    return (
+                    <BrowserRouter>
+                        <div className='app'>
+                                <Header/>
+                                <Navbar/>
+                            <div className='appContent'>
+                                <Routes>
+                                    <Route path='/content' element={<Content/>} />
+                                    <Route path='/eng'element={<Eng/>}/>
+                                </Routes>
+                            </div>
+                         </div> 
+                    </BrowserRouter> );} 
+                    
+
+        </section>
+
+        <section class="cou" >
+        <h2>Courses</h2>
+        <ul>
+            <li>RS school stage 0</li>
+            <li>Way of the Samurai 1.0</li>
+        </ul>
+
+        </section>
+
+        <section class="pro">
+        <h2>Projects</h2>
+app-bk (github)
          </section>
-         <section class="section.Skills"  id="skills">
-            <h2>Skills</h2>
+
+        <section class="edu">
+        <h2>Education</h2>
+Belarusian National Technical University
          </section>
-         <section class="section.Code" id="code">
-            <h2>Code</h2>
+
+         <section class="eng">
+        <h2>English</h2>
+A1 Elementary
          </section>
-         <section class="section.Courses" id="courses">
-            <h2>Courses</h2>
-         </section>
-         <section class="section.Projects" id="projects">
-            <h2>Projects</h2>
-         </section>
-         <section class="section.Education" id="education">
-            <h2>Education</h2>
-         </section>
-         <section class="section.Eglish" id="eglish">
-            <h2>Eglish</h2>
-          
-         </section>
-        </div>
-         </div>
-            
-        
- </main>
+
+    </div>  
+
+    </main>
 
         
     <footer class = "footer">
-        <div class = "containerF"> 
-        <div class = "img" ><img src="https://rs.school/images/rs_school_js.svg"></div>
+        <img class = "img-logo-rs" src="assets/img/logo-rs.jpg" alt="logo rs" >
         <div>https://rs.school/js/</div>
         <div>https://github.com/valdispatriarh</div>
         <div>2022</div>
