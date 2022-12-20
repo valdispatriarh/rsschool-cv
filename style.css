@@ -1,21 +1,29 @@
 .body {
-    min-height: 100vh;
-    margin: 0; padding: 0;
+
+    min-height: 25vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: white}
+    background-color: white;
+    margin: 0 auto;}
 
 .header {
   color: black;
-  background:grey;} 
+  background:grey;
+  margin: 0 auto;
+  
+} 
 .main { 
-  margin: 0; padding: 0;
+  margin: 0 auto;
   color: black;
   background-color:white}    
 .footer  {  
   color: black;
-  background-color:gray} 
+  margin: 0 auto;
+  background-color:gray;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+} 
 .nav-list {
   display: flex;
   justify-content: flex-end;
@@ -32,7 +40,7 @@
   line-height: 10px;}
 .img-logo-rs {
   
-    width: 100px;}
+    width: 150px;}
 .colums-profile{
       display: grid;
       grid-template-columns:1fr 1fr;}
