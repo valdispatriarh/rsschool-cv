@@ -1,0 +1,86 @@
+.body {
+
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    margin: 0 auto;}
+
+.header {
+  color: black;
+  background:grey;
+  margin: 0 auto;
+  
+} 
+.main { 
+  margin: 0 auto;
+  color: black;
+  background-color:white}    
+.footer  {  
+  color: black;
+  margin: 0 auto;
+  background-color:gray;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+} 
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;}
+.nav-link {
+  padding: 0 20px;
+  line-height: 10px;
+  color: black;}
+.img-my-photo {
+  
+  width: 150px;
+  padding: 20px 20px;
+  line-height: 10px;}
+.img-logo-rs {
+  
+    width: 150px;}
+.colums-profile{
+      display: grid;
+      grid-template-columns:1fr 1fr;}
+.colums{
+  display: grid;
+  grid-template-columns:1fr 1fr;}
+ 
+.profile {
+    padding: 0 10px;
+    line-height: 20px;
+    background-color:white ;}
+.con {
+  padding: 0 10px;
+  line-height: 20px;
+  background-color: white ;}
+.sum {
+    padding: 0 10px;
+    line-height: 20px;
+    background-color: white ;}
+.ski {
+      padding: 0 10px;
+      line-height: 20px;
+      background-color: white ;}
+      .cod {
+        padding: 0 10px;
+        line-height:20px;
+        background-color: white ;}   
+        .cou {
+          padding: 0 10px;
+          line-height: 20px;
+          background-color: white ;}
+          .pro {
+            padding: 0 10px;
+            line-height: 20px;
+            background-color: white ;}    
+            .edu {
+              padding: 0 10px;
+              line-height: 20px;
+              background-color: white ;} 
+              .eng {
+                padding: 0 10px;
+                line-height: 20px;
+                background-color: white ;}              
