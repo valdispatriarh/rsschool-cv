@@ -1,19 +1,19 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Developer Resume</title>
-    <link rel="stylesheet" href="cv.css" />
+    <link rel="stylesheet" href="cv.css">
   </head>
   <body>
     <div class="resume">
       <div class="left-column">
-        <img class="foto" src="img/foto-bl.png" alt="myPhoto" />
-        <section class="header-content-mobile">
-          <div><h1>FRONT-END DEVELOPER</h1></div>
+        <img class="foto" src="img/foto-bl.png" alt="myPhoto">
+        <header class="header-content-mobile">
+          <div>FRONT-END DEVELOPER</div>
           <div>Isachkou Uladzislau</div>
-        </section>
+        </header>
         <section class="skills">
           <h2>Skills</h2>
           <ul>
@@ -56,6 +56,14 @@
             <li>Polish: B1</li>
             <li>Russian: C1</li>
           </ul>
+        </section>
+        <section class="languages">
+          <h2>Example code</h2>
+          <code>
+            const square = (num) => {
+              return num * num;
+            };
+        </code>
         </section>
         <!-- <img class="qr" src="img/qr.png" alt="resume" /> -->
       </div>
@@ -114,7 +122,7 @@
           </ul>
         </section>
 
-        <section class="work-experience">
+        <nav class="work-experience">
           <h2>Experience</h2>
           <ul>
             <li>
@@ -138,16 +146,16 @@
               >
             </li>
           </ul>
-          <div class="">
+          <footer class="">
             <a target="_blank" href="https://www.instagram.com/valdis.bk"
               ><img
                 class="footer-link_img"
                 src="img/instagram.png"
                 alt="instagram"
-            /></a>
+            ></a>
             <a target="_blank" href="https://github.com/valdispatriarh"
               ><img class="footer-link_img" src="img/github.png" alt="github"
-            /></a>
+            ></a>
             <a
               target="_blank"
               href="https://www.linkedin.com/in/uladzislau-isachkou-933867259/"
@@ -156,9 +164,21 @@
                 class="footer-link_img"
                 src="img/linkedin.png"
                 alt="linkedin"
-            /></a>
-          </div>
-        </section>
+            ></a>
+            <a
+            target="_blank"
+            href="https://rs.school/courses/javascript"
+          ><img
+                class="footer-link_img"
+                src="img/rs-school-logo.svg"
+                alt="rs-school-logo.svg"
+            >
+            </a>
+            
+            
+            <div>2024</div>
+          </footer>
+        </nav>
       </div>
     </div>
   </body>
